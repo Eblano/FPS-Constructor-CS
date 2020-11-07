@@ -1,0 +1,6 @@
+Серьезность	Код	Описание	Проект	Файл	Строка	Состояние подавления
+Предупреждение	CS0618	'EditorGUIUtility.LookLikeControls()" является устаревшим:
+'LookLikeControls and LookLikeInspector modes are deprecated.Use 
+EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to
+control label and field widths.'	Assembly-CSharp-Editor-firstpass
+C:\Unity\FPS Constructor V1\Assets\Plugins\Editor\GlobalUpgradeEditor.cs	10	Активный
