@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &125648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 437866}
+  - 114: {fileID: 11476078}
+  - 114: {fileID: 11448682}
+  - 114: {fileID: 11436996}
+  - 114: {fileID: 11446888}
+  - 114: {fileID: 11422076}
+  m_Layer: 0
+  m_Name: StoreController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &437866
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125648}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11422076
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0535e901b2a23f540a621ec89f673793, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slotName: []
+  allowed: 
+--- !u!114 &11436996
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8c416221259ca14591ad6f6c4a35751, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11446888
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c705a8ec934c5b4e9186f2285da9529, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponClassTextures:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 2800000, guid: 75e537d8c5292da4287477e6397a4ce0, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &11448682
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9988a0702a985e4c8c11147d1aa0f80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  balance: 500
+  WeaponInfoArray: []
+  weaponClassNames: []
+  weaponClassNamesPopulated: []
+  playerW: {fileID: 0}
+  nullWeapon: {fileID: 0}
+  slotInfo: {fileID: 0}
+  canExitWhileEmpty: 0
+--- !u!114 &11476078
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c41b7c8c355e8d04495472be02d704ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skin: {fileID: 0}
+  checkedIcon: {fileID: 2800000, guid: a97a412efc9cf34498d96b038955a6a7, type: 3}
+  lockedIcon: {fileID: 2800000, guid: afb36d3040fa3e046b5adedf5bce58ca, type: 3}
+  sPosX: -1
+  sPosY: -1
+  HWidth: 400
+  HHeight: 80
+  HYpad: 0
+  HButtonWidth: 105
+  HButtonHeight: 35
+  HTitleHeight: 35
+  HTitle: WEAPONS DEPOT
+  HTitleImage: {fileID: 2800000, guid: 1fb5db54e31dcfc4a920ed69603a7998, type: 3}
+  LSHeight: 300
+  LSWidth: 140
+  LSButtonHeight: 50
+  LSButtonWidth: 120
+  LSxPad: 5
+  LSyPad: 5
+  LSNextIcon: {fileID: 2800000, guid: bb2ebaa101aa7a6429152f52c22e985e, type: 3}
+  LSPrevIcon: {fileID: 2800000, guid: 959671df3bd4d384c9f4dbdd2ba66eb9, type: 3}
+  MDButtonWidth: 120
+  MDButtonHeight: 50
+  MDxPad: 5
+  MDyPad: 5
+  popupUpgradeWidth: 500
+  popupUpgradeHeight: 275
+  maskTexture: {fileID: 2800000, guid: 32a7097bd64ea7a4f8a93cf3b5670b07, type: 3}
+  maskTexturePopup: {fileID: 2800000, guid: 32a7097bd64ea7a4f8a93cf3b5670b07, type: 3}
+  upgradeBuyIcon: {fileID: 0}
+  upgradeInfoIcon: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 125648}
+  m_IsPrefabParent: 1
